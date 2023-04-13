@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Demo 1</title>
+  <link rel="icon" href="./imgs/logo.png" />
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/landing_demo_1.css">
 </head>
@@ -13,15 +15,127 @@
 <body>
   <div class="page-container">
     <header>
-      <h1>Header</h1>
+      <div class="header-content flex-between">
+        <div class="flex items-center font-bold text-24">
+          <img src="./imgs/logo.png" alt="" class="logo inline-block">
+          <h1>LINLITCH LANDING DEMO 1</h1>
+          <div class="nav"></div>
+        </div>
+        <div class="relative flex items-center">
+          <input type="text" class="search__input">
+          <img src="./imgs/icons/search.png" alt="" class="search__icon">
+          <div class="relative">
+            <img src="./imgs/icons/remind.png" alt="" class="remind__icon">
+            <div class="badge flex-center">10</div>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
-      <p>Content goes here.</p>
+      <!-- Swiper -->
+      <div class="swiper-contianer">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./imgs/banners/demo_img_1.jpg" alt="" class="swiper__img">
+            </div>
+            <div class="swiper-slide">
+              <img src="./imgs/banners/demo_img_2.jpg" alt="" class="swiper__img">
+            </div>
+            <div class="swiper-slide">
+              <img src="./imgs/banners/demo_img_3.jpg" alt="" class="swiper__img">
+            </div>
+            <div class="swiper-slide">
+              <img src="./imgs/banners/demo_img_4.jpg" alt="" class="swiper__img">
+            </div>
+            <div class="swiper-slide">
+              <img src="./imgs/banners/demo_img_5.jpg" alt="" class="swiper__img">
+            </div>
+            <div class="swiper-slide">
+              <img src="./imgs/banners/demo_img_6.jpg" alt="" class="swiper__img">
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- Featured Artists -->
+      <div class="module-container">
+        <div class="common-header flex-between">
+          <h2 class="text-20">Featured Artists</h2>
+          <div class="view-all__btn">VIEW ALL</div>
+        </div>
+        <div class="flex-between flex-wrap">
+          <div class="artist__card flex items-center">
+            <img src="./imgs/avatar/demo_avatar_1.jpg" alt="" class="avatar">
+            <div>
+              <div class="title">Grace Taylor</div>
+              <div class="desc">Art Director</div>
+            </div>
+          </div>
+          <div class="artist__card flex items-center">
+            <img src="./imgs/avatar/demo_avatar_2.jpg" alt="" class="avatar">
+            <div>
+              <div class="title">Alice Evans</div>
+              <div class="desc">Graphic Designer</div>
+            </div>
+          </div>
+          <div class="artist__card flex items-center">
+            <img src="./imgs/avatar/demo_avatar_3.jpg" alt="" class="avatar">
+            <div>
+              <div class="title">David Olson</div>
+              <div class="desc">Creative Director</div>
+            </div>
+          </div>
+          <div class="artist__card flex items-center">
+            <img src="./imgs/avatar/demo_avatar_4.jpg" alt="" class="avatar">
+            <div>
+              <div class="title">Sophia Lee</div>
+              <div class="desc">Visual Effects Artist</div>
+            </div>
+          </div>
+          <div class="artist__card flex items-center">
+            <img src="./imgs/avatar/demo_avatar_5.jpg" alt="" class="avatar">
+            <div>
+              <div class="title">Adam Wright</div>
+              <div class="desc">Animator</div>
+            </div>
+          </div>
+          <div class="artist__card flex items-center">
+            <img src="./imgs/avatar/demo_avatar_6.jpg" alt="" class="avatar">
+            <div>
+              <div class="title">Emma Baker</div>
+              <div class="desc">Costume Designer</div>
+            </div>
+          </div>
+          <div class="artist__card flex items-center">
+            <img src="./imgs/avatar/demo_avatar_7.jpg" alt="" class="avatar">
+            <div>
+              <div class="title">Ethan Reed</div>
+              <div class="desc">Set Designer</div>
+            </div>
+          </div>
+          <div class="artist__card flex items-center">
+            <img src="./imgs/avatar/demo_avatar_8.jpg" alt="" class="avatar">
+            <div>
+              <div class="title">Olivia Green</div>
+              <div class="desc">Creative Writer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Current Exhibition -->
+      <!-- Upcoming Events -->
     </main>
   </div>
   <footer>
     <p>Footer</p>
   </footer>
+
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/landing_demo_1.js"></script>
 </body>
 
 </html>

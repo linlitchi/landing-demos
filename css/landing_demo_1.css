@@ -1,0 +1,244 @@
+/* https://www.happyhues.co/palettes/4 */
+/* General */
+body {
+  font-size: 16px;
+  background-color: #16161a;
+  color: #fffffe;
+}
+
+h1,
+h2,
+h3 {
+  color: #fffffe;
+}
+
+p {
+  color: #94a1b2;
+}
+
+a {
+  color: #7f5af0;
+}
+
+/* Cards */
+.card {
+  background-color: #242629;
+  color: #fffffe;
+  border-radius: 10px;
+}
+
+.card__heading {
+  color: #fffffe;
+}
+
+.card__paragraph {
+  color: #94a1b2;
+}
+
+.card__tag {
+  background-color: #7f5af0;
+  color: #fffffe;
+}
+
+.card--highlight {
+  background-color: #fffffe;
+}
+
+/* Icons */
+.icon {
+  stroke: #010101;
+}
+
+/* Newsletter */
+.newsletter {
+  background-color: #fffffe;
+  color: #16161a;
+}
+
+.newsletter__input {
+  background-color: #16161a;
+  color: #fffffe;
+  border-color: #fffffe;
+}
+
+.newsletter__label,
+.newsletter__placeholder {
+  color: #fffffe;
+}
+
+.newsletter__button {
+  background-color: #7f5af0;
+  color: #fffffe;
+}
+
+/* Links */
+a {
+  color: #7f5af0;
+}
+
+.header-content,
+.module-container {
+  width: 1136px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 40px;
+  margin: 10px 20px 10px 0;
+}
+
+.search__input {
+  width: 240px;
+  padding: 8px 26px 8px 10px;
+  margin-right: 20px;
+  background-color: #16161a;
+  color: #fffffe;
+  border: 1px solid #474747;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.search__input:focus {
+  outline: none;
+}
+
+.search__icon {
+  position: absolute;
+  top: 50%;
+  left: 216px;
+  height: 20px;
+  transform: translateY(-50%);
+}
+
+.remind {
+  width: 24px;
+  height: 24px;
+}
+
+.remind__icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.badge {
+  content: "10";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  transform: translate(50%, -50%);
+  background-color: #7f5af0;
+  color: #fffffe;
+  border-radius: 50%;
+}
+
+/* Swiper */
+.swiper-contianer {
+  padding: 20px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper__img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+}
+
+.swiper-button-next::after {
+  background: url(../imgs/icons/arrow-right.png);
+  background-size: 24px 24px;
+}
+
+.swiper-button-prev::after {
+  background: url(../imgs/icons/arrow-left.png);
+  background-size: 24px 24px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #7f5af0;
+}
+
+/* Module */
+.common-header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.view-all__btn {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.view-all__btn:hover {
+  opacity: 1;
+}
+
+.artist__card {
+  width: 24%;
+  padding: 20px 16px;
+  margin-bottom: 20px;
+  background-color: #242629;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.artist__card:hover {
+  transform: scale(1.05);
+  transition: all 0.2s;
+}
+
+.artist__card .avatar {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.artist__card .title {
+  margin-bottom: 6px;
+}
+
+.artist__card .desc {
+  opacity: 0.5;
+}
