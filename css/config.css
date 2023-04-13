@@ -1,0 +1,175 @@
+/* Text Align */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* Text Overflow */
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.truncate-2-rows {
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+/* Font Size */
+.text-16 {
+  font-size: 16px;
+}
+
+.text-24 {
+  font-size: 24px;
+}
+
+/* Font Weight */
+.font-bold {
+  font-weight: bold;
+}
+
+
+/* Flex */
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Position */
+.relative {
+  position: relative;
+}
+
+.absolute-start {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Width */
+.w-full {
+  width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+/* Min Width */
+
+/* Max Width */
+
+/* Height */
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+/* Min Height */
+
+/* Max Height */
+
+/* Margin */
+
+/* Padding */
+
+/* Border */
+
+/* Border Radius */
+.rounded-half {
+  border-radius: 50%;
+}
+
+/* Object Fit */
+.object-contain {
+  object-fit: contain;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+/* Box Sizing */
+.border-box {
+  box-sizing: border-box;
+}
+
+/* Line Height */
+
+/* Overflow */
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+/* Color */
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+/* Background Color */
+.text-white {
+  background-color: white;
+}
+
+.text-black {
+  background-color: black;
+}

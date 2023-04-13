@@ -1,0 +1,31 @@
+@import url(./reset.css);
+@import url(./config.css);
+
+/* Set body height to fill viewport */
+html,
+body {
+  height: 100%;
+}
+
+/* Define page container */
+.page-container {
+  min-height: 100%;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  color: #fff;
+  height: 60px;
+  padding: 10px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #666;
+  color: #fff;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
